@@ -126,7 +126,7 @@ def main():
         print(f"{bcolors.RED}4.Total network count?:{NetworkCountGuess}{bcolors.ENDC} {bcolors.GREEN}{NetworkCount}{bcolors.ENDC}")
 
     if str(NetworkClassGuess) == str(NetworkClass):
-        print(f"{bcolors.GREEN}4.Total network count?:{NetworkClassGuess}{bcolors.ENDC}")
+        print(f"{bcolors.GREEN}5.......Network Class?:{NetworkClassGuess}{bcolors.ENDC}")
     else:
         print(f"{bcolors.RED}5.......Network Class?:{NetworkClassGuess}{bcolors.ENDC} {bcolors.GREEN}{NetworkClass}{bcolors.ENDC}")
 #This is so we can import the functions in this program in other code without having to run the main function
